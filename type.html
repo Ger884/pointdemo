@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RT Point</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+
+    <div id="info" style="margin-bottom: 20px; font-weight: bold; color: #333;"></div>
+
+     <div class="box">
+            <div class="container">
+            <div class="logo">
+            <img src="rt_school.png" alt="RT Point Logo" width="200" height="250">
+
+            <h1>RT Point</h1>
+            <form id="RTPointDB" action="process.php" method="POST">
+                <div class="input-box">
+                <h3>วันเดือนปีที่ผลิต</h3>
+                <div class="i">
+                        <input type="text" name="textdate" placeholder="กรอก ว/ด/ป ดูได้ที่ข้างขวด" id="textdate">
+                </div>
+            <div class="input-box">
+                <h3>กรอกเลขใต้ฝา</h3>
+                <div class="i">
+                        <input type="text" name="cap_code" placeholder="เลขใต้ฝา เช่น 12 หรือ 2-12" id="cap_code">
+                </div>
+            </div>
+                <button type="submit" id="btnsubmit" class="btn-submit"><a href="Rtpoint.html">ยืนยัน</a></button>
+            </form>
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
