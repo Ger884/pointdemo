@@ -75,7 +75,7 @@ p {
 
 
 
-.check-point {
+.btn-submit {
     display: flex;
     cursor: pointer;
     justify-self: center;
@@ -83,7 +83,7 @@ p {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 15px;
     background-color: rgb(255, 211, 15);
     border: #000 solid 0;
