@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RT Point</title>
-    <link rel="stylesheet" href="StyleRtpoint.css">
+    <link rel="stylesheet" href="StyleHome.css">
 
 </head>
 <body>
@@ -18,10 +18,12 @@
             <div class="text-action">
                 <p class="plus-point">Considering</p>
             </div>
-        <div class="check-point">
-           <a href="check-point.html" class="btn-back">ตรวจสอบคะแนน</a>
-           <a href="home.html" class="btn-back">กลับสู่หน้าแรก</a>
-        </div>
+        <form action="ProcessBack.php" method="get">
+            <button type="submit" class="btn-submit">กลับหน้าแรก</button>
+        </form>
+        <form action="ProcessCheck.php" method="get">
+            <button type="submit" class="btn-submit">ตรวจสอบคะแนน</button>
+        </form>
     </div>
 
 </body>
